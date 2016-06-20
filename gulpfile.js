@@ -26,7 +26,6 @@ gulp.task('browserSync', function() {
     },
   })
 })
-
 gulp.task('js', function(){
 	gulp.src('./app.js')
 	.pipe(jshint())

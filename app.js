@@ -12,7 +12,12 @@ $('#submit').on("click",function(e){
 			console.log(data.Search)
 			var html;
 			data.Search.map(function(result){
-				html += "<li>" + result.Title + "</li>"
+				html += "<li class='card'>"
+				html+= "<a href='http://www.imdb.com/title/'"+ result.imdbID + ">"
+				html += "<img src =" + result.Poster + ">"
+				html += "</a>"
+				html += "<h3 class='title'>" + result.Title + "</h3>"
+				html += "<p class='year'>"+result.Year+"</p>"
 				return html
 			});
 
@@ -20,4 +25,4 @@ $('#submit').on("click",function(e){
 		}
 	})
 });
-$("#h1").css();
+
