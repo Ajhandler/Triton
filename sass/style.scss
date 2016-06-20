@@ -23,3 +23,14 @@ textarea:focus, input:focus{
 	font-size: 2em;
 	padding-left: 10px;
 }
+#content{
+	padding: 0;
+	margin:0;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  .card{
+  	list-style-type: none;
+  	background-color: white;
+  }
+}
