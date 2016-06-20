@@ -1,0 +1,30 @@
+{
+  "name": "imdmovie",
+  "version": "1.0.0",
+  "description": "A movie search consuming the omdbapi ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajhandler/Triton.git"
+  },
+  "author": "Alex Handler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajhandler/Triton/issues"
+  },
+  "homepage": "https://github.com/Ajhandler/Triton#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  }
+}
